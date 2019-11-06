@@ -65,13 +65,10 @@
         android:id="@+id/spinner2"
         android:layout_width="213dp"
         android:layout_height="38dp"
+        android:layout_marginStart="102dp"
         android:layout_marginTop="129dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="46dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <TextView
         android:id="@+id/textView25"
@@ -87,7 +84,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/simpanBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="162dp"
